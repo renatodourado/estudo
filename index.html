@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css/estilo.css" rel="stylesheet">
+    <title>Estudo</title>
+    <script type="text/javascript">
+        window.onload = function() {
+            document.querySelector(".menuMobile").addEventListener("click", function() {
+                if (document.querySelector(".menu nav ul").style.display == 'flex') {
+                    document.querySelector(".menu nav ul").style.display = 'none';
+                } else {
+                    document.querySelector(".menu nav ul").style.display = 'flex';
+                }
+            });
+        };
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href=""><img src="image/logo2.jpg" width="100px" alt="rato" /></a>
+            </div>
+            <div class="menu">
+                <nav>
+                    <div class="menuMobile">
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                    </div>
+                    <ul>
+                        <li class="active"><a href="">ESPORTES</a></li>
+                        <li><a href="">REGIÃO</a></li>
+                        <li><a href="">QUEM SOMOS</a></li>
+                        <li><a href="">CONTATO</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section id="banner">
+        <div class="container column">
+            <div class="banner_headline">
+                <h1>O Esporte Salvando Vidas</h1>
+                <h2>Vida saudável e bem estar social</h2>
+            </div>
+            <div class="banner_options">
+                <div class="banner1">
+                    <div class="banner_title">Esportes na Cidade</div>
+                    <div class="banner_desc"></div>No jogo contra o Galo, o Afogados empatou por 2 a 2, mas venceu nos pênaltis por 7 a 6.<a href="">Leia Mais</a>
+                </div>
+                <div class="banner2">
+                    <div class="banner_title">Campeonatos</div>
+                    <div class="banner_desc">Campinas, SP, 18 (AFI) - Informação e solidariedade. Este é o lema do 1º CONGRESSO VIRTUAL DA FENAPAF, que será realizado nos dias 23 e 24 de junho, gratuitamente, pela internet, em parceria com a agência EA.</div>
+                    <a href="">Leia Mais</a>
+                </div>
+                <div class="banner3">
+                    <div class="banner_title">Inscrições</div>
+                    <div class="banner_desc">Para se inscrever em qualquer campeonato Estadual, é preciso estar matrículado e frequentar regularmente as aulas.</div>
+                    <a href="">Inscrição</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="geral">
+        <div class="container">
+            <section>
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_text">Últimas Notícias </div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                    <div class="widget_body flex">
+
+                        <article>
+                            <a href="">
+                                <div class="news_data">
+                                    <div class="news_posted_at">15 JUN 20</div>
+                                    <div class="news_comments">4</div>
+                                </div>
+                                <div class="news_thumbnail">
+                                    <img src="image/hand.jpg">
+                                </div>
+                                <div class="news_title">
+                                    Equipe de Handbol de Itu é Campeã Regional
+                                </div>
+                                <div class="news_resume">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto quos consectetur earum exercitationem esse natus doloremque illum hic enim at cupiditate, minus magnam necessitatibus assumenda. Recusandae eos quisquam minima nobis.
+                                </div>
+                            </a>
+                        </article>
+                        <article>
+                            <a href="">
+                                <div class="news_data">
+                                    <div class="news_posted_at">10 JUN 20</div>
+                                    <div class="news_comments">4</div>
+                                </div>
+                                <div class="news_thumbnail">
+                                    <img src="image/basquete.jpg">
+                                </div>
+                                <div class="news_title">
+                                    Basquete do Interior é destaque em jogos Estaduais
+                                </div>
+                                <div class="news_resume">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto quos consectetur earum exercitationem esse natus doloremque illum hic enim at cupiditate, minus magnam necessitatibus assumenda. Recusandae eos quisquam minima nobis.
+                                </div>
+                            </a>
+                        </article>
+                        <article>
+                            <a href="">
+                                <div class="news_data">
+                                    <div class="news_posted_at">05 ABR 20</div>
+                                    <div class="news_comments">4</div>
+                                </div>
+                                <div class="news_thumbnail">
+                                    <img src="image/fut.jpg">
+                                </div>
+                                <div class="news_title">
+                                    Time principal do Cristal vence e dispara na liderança
+                                </div>
+                                <div class="news_resume">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto quos consectetur earum exercitationem esse natus doloremque illum hic enim at cupiditate, minus magnam necessitatibus assumenda. Recusandae eos quisquam minima nobis.
+                                </div>
+                            </a>
+                        </article>
+                        <article>
+                            <a href="">
+                                <div class="news_data">
+                                    <div class="news_posted_at">03 MAR 20</div>
+                                    <div class="news_comments">4</div>
+                                </div>
+                                <div class="news_thumbnail">
+                                    <img src="image/fut2.jpg">
+                                </div>
+                                <div class="news_title">
+                                    Jogo do Leste e Furacão é interrompido por tiros
+                                </div>
+                                <div class="news_resume">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto quos consectetur earum exercitationem esse natus doloremque illum hic enim at cupiditate, minus magnam necessitatibus assumenda. Recusandae eos quisquam minima nobis.
+                                </div>
+                            </a>
+                        </article>
+
+                    </div>
+                </div>
+            </section>
+            <aside>
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_text">Departamentos</div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                    <div class="widget_body">
+                        Lorem ipsum dolor sit amet, consectetur ad!
+                    </div>
+                </div>
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_text">Resultados</div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                    <div class="widget_body">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container flexColumn">
+            <div class="footer_menu">
+                <div class="fm1">
+                    <a href="">SAÚDE</a>
+                </div>
+                <div class="fm2">
+                    <a href="">BELEZA</a>
+                </div>
+                <div class="fm3">
+                    <a href="">CLASSIFICADOS</a>
+                </div>
+            </div>
+            <div class="footer_area">
+                <div class="footer_areaitem">
+                    <div class="widget">
+                        <div class="widget_title">
+                            <div class="widget_title_text">Ação Social</div>
+                            <div class="widget_title_bar"></div>
+                        </div>
+                        <div class="widget_body">
+                            Quam mollitia ratione similique sint, voluptate dignissimos.
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_areaitem">
+                    <div class="widget">
+                        <div class="widget_title">
+                            <div class="widget_title_text">Projetos</div>
+                            <div class="widget_title_bar"></div>
+                        </div>
+                        <div class="widget_body">
+                            Possimus consequatur temporibus perferendis!
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_areaitem">
+                    <div class="widget">
+                        <div class="widget_title">
+                            <div class="widget_title_text">Parcerias</div>
+                            <div class="widget_title_bar"></div>
+                        </div>
+                        <div class="widget_body">
+                            Nisi repudiandae at accusamus odio beatae a deserunt dolore sunt omnis.
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="footer_end">
+                Site Feito em HTML e CSS por RENATO DOURADO
+            </div>
+        </div>
+
+    </footer>
+
+
+
+
+</body>
+
+</html>
